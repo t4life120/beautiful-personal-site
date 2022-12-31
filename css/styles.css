@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.4rem;
+}
+
+h1 {
+    margin: 0 auto 0 auto;
+    font: 6rem cursive;
+    color: #3F72AF;
+}
+
+h2 {
+    font: 1rem;
+    color: #112D4E;
+    /* font-weight: normal; */
+}
+
+h3 {
+    color: #112D4E;
+}
+
+a {
+    color: #112D4E;
+}
+
+hr {
+    margin: 0;
+}
+
+
+
+/* #####-------Top Container------####### */
+
+.top-container {
+    background-color: #D6E6F2;
+    padding-top: 80px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: relative;
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+    /* left: 0%;
+    right: 0%;
+    margin: 0 auto; */
+}
+
+
+/* #####-------Middle Container------####### */
+
+.middle-container {
+    margin: 80px 0 80px;
+}
+
+.profile {
+    width: 50%;
+    margin: 80px auto 80px auto;
+}
+
+.skills {
+    margin: 80px 0 80px;
+    background-color: #D6E6F2;
+    padding: 40px 0 40px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 80px auto 80px auto;
+    text-align: left;
+    /* line-height: 2; */
+}
+
+.python-pic {
+    background-color: #D6E6F2;
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+.computer-pic {
+    width: 200px;
+    float: right;
+    margin-left: 50px;
+}
+
+.contact-me {
+    width: 50%;
+    margin: 80px auto 80px auto;
+}
+
+.btn {
+    background: #3F72AF;
+    background-image: -webkit-linear-gradient(top, #3F72AF, #112D4E);
+    background-image: -moz-linear-gradient(top, #3F72AF, #112D4E);
+    background-image: -ms-linear-gradient(top, #3F72AF, #112D4E);
+    background-image: -o-linear-gradient(top, #3F72AF, #112D4E);
+    background-image: linear-gradient(to bottom, #3F72AF, #112D4E);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #666666;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: "Outfit", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #769FCD;
+    text-decoration: none;
+}
+
+
+/* #####-------Bottom Container------####### */
+
+.bottom-container {
+    background-color: #D6E6F2;
+    padding: 40px 0 20px;
+}
+
+.footer-link {
+    margin-inline: 30px;
+    font-weight: bold;
+}
+
+.end {
+    font-size: 1.2rem;
+}
